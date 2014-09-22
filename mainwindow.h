@@ -20,6 +20,8 @@ private slots:
 
     void on_convertButton_clicked();
 
+    char* utf16to8( wchar_t* utf16str);
+    wchar_t* utf8to16(char* str );
 private:
     Ui::MainWindow *ui;
 };
